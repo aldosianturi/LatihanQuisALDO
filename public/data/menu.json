@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Bakso Mayan Sedap",
+    "desc": "Bakso daging sapi kuah gurih",
+    "price": "Mulai dari Rp15.000",
+    "img": "/img/bakso.jpeg"
+  },
+  {
+    "title": "Migoreng Mayan Sedap",
+    "desc": "Mie goreng pedas gurih",
+    "price": "Mulai dari Rp12.000",
+    "img": "/img/migoreng.jpeg"
+  },
+  {
+    "title": "Ikan Bakar Mayan Sedap",
+    "desc": "Ikan bakar bumbu kecap khas",
+    "price": "Mulai dari Rp20.000",
+    "img": "/img/ikanbakar.jpeg"
+  },
+  {
+    "title": "Ayam Geprek Level 5",
+    "desc": "Ayam crispy dengan sambal super pedas",
+    "price": "Mulai dari Rp18.000",
+    "img": "/img/ayamgeprek.jpeg"
+  },
+  {
+    "title": "Nasi Goreng Spesial",
+    "desc": "Nasi goreng dengan topping lengkap",
+    "price": "Mulai dari Rp17.000",
+    "img": "/img/nasigoreng.jpeg"
+  },
+  {
+    "title": "Sate Ayam Madura",
+    "desc": "Sate ayam bumbu kacang khas Madura",
+    "price": "Mulai dari Rp16.000",
+    "img": "/img/sateayam.jpeg"
+  },
+  {
+    "title": "Soto Ayam Lamongan",
+    "desc": "Soto ayam bening dengan koya",
+    "price": "Mulai dari Rp14.000",
+    "img": "/img/sotoayam.jpeg"
+  },
+  {
+    "title": "Tahu Campur",
+    "desc": "Campuran tahu, sayur, dan daging sapi",
+    "price": "Mulai dari Rp15.000",
+    "img": "/img/tahucampur.jpeg"
+  },
+  {
+    "title": "Rawon Daging",
+    "desc": "Sup daging hitam khas Jawa Timur",
+    "price": "Mulai dari Rp22.000",
+    "img": "/img/rawon.jpeg"
+  },
+  {
+    "title": "Pecel Lele",
+    "desc": "Lele goreng dengan sambal dan lalapan",
+    "price": "Mulai dari Rp13.000",
+    "img": "/img/pecellele.jpeg"
+  },
+  {
+    "title": "Mie Ayam Pangsit",
+    "desc": "Mie ayam dengan pangsit rebus",
+    "price": "Mulai dari Rp12.000",
+    "img": "/img/mieayam.jpeg"
+  },
+  {
+    "title": "Lontong Sayur",
+    "desc": "Lontong dengan kuah santan dan sayuran",
+    "price": "Mulai dari Rp11.000",
+    "img": "/img/lontongsayur.jpeg"
+  },
+  {
+    "title": "Nasi Uduk Komplit",
+    "desc": "Nasi uduk dengan ayam, telur, dan sambal",
+    "price": "Mulai dari Rp16.000",
+    "img": "/img/nasiuduk.jpeg"
+  },
+  {
+    "title": "Gudeg Jogja",
+    "desc": "Gudeg nangka khas Yogyakarta",
+    "price": "Mulai dari Rp20.000",
+    "img": "/img/gudeg.jpeg"
+  },
+  {
+    "title": "Ayam Bakar Taliwang",
+    "desc": "Ayam bakar pedas khas Lombok",
+    "price": "Mulai dari Rp23.000",
+    "img": "/img/ayambakar.jpeg"
+  },
+  {
+    "title": "Rendang Padang",
+    "desc": "Rendang sapi empuk bumbu rempah",
+    "price": "Mulai dari Rp25.000",
+    "img": "/img/rendang.jpeg"
+  },
+  {
+    "title": "Bubur Ayam",
+    "desc": "Bubur ayam dengan topping melimpah",
+    "price": "Mulai dari Rp10.000",
+    "img": "/img/buburayam.jpeg"
+  },
+  {
+    "title": "Gado-Gado",
+    "desc": "Sayuran rebus dengan saus kacang",
+    "price": "Mulai dari Rp13.000",
+    "img": "/img/gadogado.jpeg"
+  },
+  {
+    "title": "Ketoprak Jakarta",
+    "desc": "Tahu, bihun, dan bumbu kacang",
+    "price": "Mulai dari Rp12.000",
+    "img": "/img/ketoprak.jpeg"
+  },
+  {
+    "title": "Siomay Bandung",
+    "desc": "Siomay lengkap dengan bumbu kacang",
+    "price": "Mulai dari Rp14.000",
+    "img": "/img/siomay.jpeg"
+  }
+]
