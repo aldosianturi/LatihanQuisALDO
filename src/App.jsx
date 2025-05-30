@@ -65,7 +65,7 @@ function App() {
           <Routes>
             {/* Main authenticated routes */}
             <Route element={<MainLayout />}>
-              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/" element={<Dashboard />} />
               <Route path="/orders" element={<Orders orders={filteredOrders} />} />
               <Route path="/customers" element={<Customers customers={filteredCustomers} />} />
               <Route path="/users" element={<Users />} />
@@ -83,7 +83,7 @@ function App() {
 
             {/* Guest routes */}
             <Route element={<GuestLayout />}>
-              <Route path="/" element={<GuestHome />} />
+              <Route path="/guest" element={<GuestHome />} />
               <Route path="/newarrival" element={<NewArrivals />} />
               <Route path="/blogsection" element={<BlogSection />} />
               <Route path="/iklan" element={<Iklan />} />
