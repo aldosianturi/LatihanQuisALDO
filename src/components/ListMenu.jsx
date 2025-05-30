@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { MdDashboard, MdPeople, MdShop, MdError } from "react-icons/md";
+import {
+  MdDashboard,
+  MdPeople,
+  MdShop,
+  MdError,
+  MdFastfood
+} from "react-icons/md";
 import { useBreadcrumb } from "../context/BreadcrumbContext";
 import { useNavigate } from "react-router-dom";
 
@@ -23,6 +29,10 @@ export default function ListMenu() {
       case "customers":
         updateBreadcrumb(["Home", "Dashboard", "Customers"]);
         navigate("/customers");
+        break;
+      case "products":
+        updateBreadcrumb(["Dashboard", "Product List"]);
+        navigate("/products");
         break;
       case "error400":
         updateBreadcrumb(["Error", "400 - Bad Request"]);
@@ -62,6 +72,10 @@ export default function ListMenu() {
         <li onClick={() => handleMenuClick("customers")} className={menuItemClass("customers")}>
           <MdPeople className="mr-4 text-2xl" />
           Customers
+        </li>
+        <li onClick={() => handleMenuClick("products")} className={menuItemClass("products")}>
+          <MdFastfood className="mr-4 text-2xl" />
+          Products
         </li>
         <li onClick={() => handleMenuClick("error400")} className={menuItemClass("error400")}>
           <MdError className="mr-4 text-2xl text-red-600" />
