@@ -46,6 +46,10 @@ export default function ListMenu() {
         updateBreadcrumb(["Error", "404 - Not Found"]);
         navigate("/notfound", { state: { code: 404 } });
         break;
+      case "notes":
+        updateBreadcrumb(["Dashboard", "Notes"]);
+        navigate("/notes");
+        break;
       default:
         break;
     }
@@ -88,6 +92,10 @@ export default function ListMenu() {
         <li onClick={() => handleMenuClick("error404")} className={menuItemClass("error404")}>
           <MdError className="mr-4 text-2xl text-gray-600" />
           Error 404
+        </li>
+        <li onClick={() => handleMenuClick("notes")} className={menuItemClass("notes")}>
+          <MdError className="mr-4 text-2xl text-blue-600" />
+          Notes
         </li>
       </ul>
     </div>

@@ -14,6 +14,7 @@ import NewArrivals from './components/NewArrival.jsx';
 import BlogSection from './components/BlogSection.jsx';
 import Iklan from './components/iklan.jsx';
 import Newsletter from './components/Newsletter.jsx';
+import Notes from './pages/Notes.jsx';
 
 // Lazy-loaded pages
 const Dashboard = lazy(() => import('./pages/Dashboard'));
@@ -32,10 +33,12 @@ const ProductDetail = lazy(() => import('./pages/ProductDetail'));
 import ordersData from './data/orders.json';
 import customersData from './data/customers.json';
 
+
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [orders, setOrders] = useState([]);
   const [customers, setCustomers] = useState([]);
+  
 
   useEffect(() => {
     setOrders(ordersData);
@@ -72,6 +75,7 @@ function App() {
               <Route path="/error-404" element={<Error404 />} />
               <Route path="/products" element={<Products />} />
               <Route path="/products/:id" element={<ProductDetail />} />
+               <Route path="/notes" element={<Notes />} />
             </Route>
 
             {/* Auth routes */}
